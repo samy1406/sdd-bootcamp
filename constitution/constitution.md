@@ -1,33 +1,23 @@
 # SDD Bootcamp Constitution
 
 ## 1. Specification First
-- user login page with email and password authentication
-- a add "+" button which can allow the user to add the expense, income and transfer .
-- the page where expense will get add, should have rows as "Date", "Amount", "category", "Account type", "Note"
-- The amount row should only except numbers.
-- the front page should show daily expense, weekly expense, monthly expense, yearly expense.
-- on below of page should have stats, account and user name displayed.
-- the stats should tell what income was, what expenses are in a pie chart manner based on categroies entered during expense
+Every feature must have an approved specification before implementation begins.
 
 ## 2. Human Ownership
-- Ask human for confirmation after every page is been created for approval.
-- Ask human for manual verification of authentication page for user login.
+The human owns product requirements, architectural decisions, security decisions, and final acceptance. AI may propose changes but may not unilaterally redefine requirements.
 
 ## 3. Code Quality
-- code should be industry standards.
-- use required languages to complete the tasks.
+Code should have proper function naming, along with description. Should follow industry standard for naming conventions. Strictly use the tech stack which is mentioned. 
 
 ## 4. Testing
-- create a test script for each feature developed.
-- create a report if any feature fails on test.
+Every acceptance criterion must have corresponding validation before a feature is considered complete.
 
 
 ## 5. Security
-- look for various ways a user can enter the application without login, or can gain access to the other account.
+- The authentication should be made to verify and allow only authenticated user, should measure all the checks which can allow gating to the other user login.
 
 ## 6. Simplicity
-- the page should have less to no graphic images.
-- use simple color for page like charcoal grey and red.
+prefer simple interfaces and avoid unnecessary complexity unless a requirement justifies it.
 
 ## 7. Change Management
 - Once each feature is developed commit to source control.
@@ -43,8 +33,12 @@
 - document each Milestone sepearately 
 
 ## 10. Definition of Done
-- authentication page is working with all the test cases.
-- user can add the expense, income, can see daily updation, weekely updation, montly updation
-- user can see the stats related to income and expense.
-- Amount is been crediting and debiting and update live, should be seen on the account information.
-- user can add the profile photo, update the password with authentication.
+A feature is done only when:
+1. Its specification is approved.
+2. Its implementation plan has been approved.
+3. Required tests pass.
+4. Acceptance critea are verified. 
+5. Security implications have been checked.
+6. Documentation has been updated.
+7. The change has been committed to source control.
+8. Human acceptance has been obtained where required.
