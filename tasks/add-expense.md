@@ -1,0 +1,7 @@
+- [ ] Task 1 — Create database models for User, Account, Category, and Expense
+- [ ] Task 2 — Create the backend API endpoint for adding an expense
+- [ ] Task 3 — Add validation for expense date, amount, category, account, and note
+- [ ] Task 4 — Implement authentication and authorization checks for expense creation
+- [ ] Task 5 — Implement expense creation and account balance update as one logical operation
+- [ ] Task 6 — Create the frontend expense form and connect it to the backend API
+- [ ] Task 7 — Add error handling and retry behaviour for failed expense creation
