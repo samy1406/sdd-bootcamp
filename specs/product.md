@@ -353,6 +353,7 @@ The following decisions must be made before their affected features are finalize
 13. What password requirements apply?
 14. What does "live" account updating mean for this application?
 15. Should the dashboard show only expenses or both income and expenses?
+16. What exactly does "Account type" mean?
 
 ---
 
